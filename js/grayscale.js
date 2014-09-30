@@ -169,7 +169,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     // TODO: fetch LatLng from instano-api, parse JSON and display
-    var image = 'img/instano_launcher.png';
+    var image = 'img/instano_map-marker.png';
     var myLatLng = new google.maps.LatLng(12.9442415, 77.6275123);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
